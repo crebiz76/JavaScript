@@ -81,7 +81,7 @@ function getTime(){
 		pastMinute = minutes - timeArray[0];
 	}
 
-	calTitle.innerHTML = `${parseInt(betweenDay)} Days ${pastHour} Hours ${pastMinute} Minutes`;
+	calTitle.innerHTML = `D+${parseInt(betweenDay+1)}...${parseInt(betweenDay)}Days ${pastHour}Hours ${pastMinute}Minutes`;
 }
 function init(){
     getTime();
