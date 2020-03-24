@@ -15,7 +15,7 @@ function getTime(){
 
 	var dateArray = birthday.split("-");
 	var dateObject = new Date(dateArray[0], Number(dateArray[1])-1, dateArray[2]);
-	var betweenDay = (date.getTime() - dateObject.getTime())/1000/60/60/24;
+	var betweenDay = (date.getTime() - dateObject.getTime())/1000/60/60/24 + 1;
 
     const minutes = date.getMinutes();
     const hours = date.getHours();
