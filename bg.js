@@ -8,7 +8,8 @@ function handleImgLoad(){
 
 function paintImage(imgNumber){
     const image = new Image();
-    image.src = `https://github.com/crebiz76/JavaScript/tree/master/images/${imgNumber + 1}.jpg`;
+    //image.src = `https://github.com/crebiz76/JavaScript/tree/master/images/${imgNumber + 1}.jpg`;
+    image.src = `./images/${imgNumber + 1}.jpg`;
     // image.addEventListener("loadend", handleImgLoad());
     image.classList.add("bgImage");
     body.appendChild(image);
