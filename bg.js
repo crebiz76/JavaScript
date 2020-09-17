@@ -10,7 +10,7 @@ function paintImage(imgNumber){
     const image = new Image();
     //image.src = `https://github.com/crebiz76/JavaScript/blob/master/images/${imgNumber + 1}.jpg`;
     //image.src = `/images/${imgNumber + 1}.jpg`;
-    image.src = `./images/${imgNumber + 1}.png`;
+    image.src = `./images/${imgNumber + 1}.jpg`;
     //image.src = `./tree/master/images/${imgNumber + 1}.jpg`;
     //image.src = `https://crebiz76.github.io/JavaScript/images/${imgNumber + 1}.jpg`;
     // image.addEventListener("loadend", handleImgLoad());
