@@ -3,7 +3,12 @@ body{
 }
 
 h1{
-    color:white;
+    color:rgb(166, 166, 166);
+    text-align: center;
+}
+
+h2{
+    color: rgb(150, 150, 250);
 }
 
 .form,
@@ -36,4 +41,8 @@ h1{
 
 .clock{
     font-size: 5em;
+}
+
+.date{
+    font-size: 2em;
 }

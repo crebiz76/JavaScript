@@ -1,5 +1,5 @@
 const calContainer = document.querySelector(".js-date");
-const calTitle = calContainer.querySelector("h1");
+const calTitle = calContainer.querySelector("h2");
 
 const clockContainer = document.querySelector(".js-clock");
 const clockTitle = clockContainer.querySelector("h1");
@@ -14,7 +14,7 @@ function getTime(){
 	const birthtime = "16:26";
 
 	var dateArray = birthday.split("-");
-	var dateObject = new Date(dateArray[0], Number(dateArray[1])-1, dateArray[2]);
+	var dateObject = new Date(dateArray[0], Number(dateArray[1]-1), dateArray[2]);
 	var betweenDay = (date.getTime() - dateObject.getTime())/1000/60/60/24;
 
     const minutes = date.getMinutes();
