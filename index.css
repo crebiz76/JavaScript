@@ -46,3 +46,46 @@ h2{
 .date{
     font-size: 2em;
 }
+
+}
+
+.form{
+    font-size: 2em;
+    color:rgb(166, 166, 166);
+    text-align: center;
+    align-content: center;
+}
+
+.greeting{
+    font-size: 2em;
+    color:white;
+    text-align: center;
+}
+
+input{
+    background: none;
+    appearance: none;
+    border: 0;
+    font-size: 22px;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+input::placeholder {
+    color: white;
+}
+
+.name,
+.work{
+    font-size: 2em;
+    color:white;
+    text-align: center;
+    align-content: center;
+}
+
+.toDo{
+    font-size: 2em;
+    color:white;
+    text-align: center;
+    align-content: center;
+}
