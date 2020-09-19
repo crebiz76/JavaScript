@@ -69,12 +69,17 @@ input{
     border-bottom: 2px solid white;
 }
 
+input[type=text]:focus {
+    border: 0;
+    padding: 0;
+}
+
 input::placeholder {
     color: white;
 }
 
 .name,
-.work{
+.toDoForm{
     font-size: 2em;
     color:white;
     text-align: center;
@@ -84,18 +89,12 @@ input::placeholder {
 .toDo{
     font-size: 1em;
     color:white;
-    text-align: center;
-    align-content: left;
+    outline: none;
 }
 
 .toDoList{
     font-size: 1.5em;
     color:white;
-    text-align: left;
-    align-content: center;
-    /* border: 2px solid red;
-    border-radius: 5px; */
-    margin-right: 20px;
 }
 
 .weather{
@@ -115,4 +114,24 @@ ul{
     margin-right: 10px;
     cursor: pointer;
     color: red;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.center .name__input {
+    appearance: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 36px;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.8);
+    margin-bottom: 20px;
+}
+
+.center .toDoForm {
+    outline: none;
 }
