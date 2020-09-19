@@ -84,8 +84,37 @@ input::placeholder {
 }
 
 .toDo{
-    font-size: 2em;
+    font-size: 1em;
     color:white;
     text-align: center;
+    align-content: left;
+}
+
+.toDoList{
+    font-size: 1.5em;
+    color:white;
+    text-align: left;
     align-content: center;
+    /* border: 2px solid red;
+    border-radius: 5px; */
+    margin-right: 20px;
+}
+
+.weather{
+    font-size: 1em;
+    color: red;
+    text-align: right;
+    /* align-content: right; */
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.toDo_button {
+    margin-right: 10px;
+    cursor: pointer;
+    color: red;
 }
